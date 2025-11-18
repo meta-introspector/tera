@@ -14,3 +14,4 @@ callgrind.out.*
 *.zst
 !docs/playground/pkg/**
 docs/static/playground/process-repo.log
+process-repo.log
