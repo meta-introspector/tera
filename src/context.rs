@@ -251,7 +251,7 @@ struct PointerMachina<'a> {
 }
 
 impl PointerMachina<'_> {
-    fn new(pointer: &str) -> PointerMachina {
+    fn new(pointer: &str) -> PointerMachina<'_> {
         PointerMachina {
             pointer,
             single_quoted: false,
